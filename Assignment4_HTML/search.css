@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(from rgba(0, 0, 0, 0.77) r g b);
+}
+header{
+display: flex;
+justify-content: flex-start;
+gap: 150px;
+background-color: black;
+color: whitesmoke;
+border: 2px solid white;}
+
+
+header>span{
+    cursor: pointer;
+
+}
+.root
+{
+    background-color: white;
+}
+.card{
+    border: 2px solid mediumseagreen ;
+    margin: 12px auto;
+    padding: 5px;
+    width: 320px;
+    height: 360px;
+    color: rgba(0, 38, 255, 0.603);
+    background-color: white;
+}
+header>span:hover{
+    color:red
+}
